@@ -1,0 +1,83 @@
+Wolfenstein 1.5 Editor Instructions
+------------------------------------------------------------------------
+COPYRIGHTS: This software and source code is the work of Timothy Paling. 
+
+I'd be happy for someone to make use of this code but please please please
+send me an e-mail at timothy.paling@btinternet.com and tell me what you're 
+planning to do with the code and get my permission.
+
+I'm also prepared to accept some questions about the project but if I get too
+many I won't answer.
+
+If your interested in this project please visit
+
+www.live3d.btinternet.co.uk for my latest project.
+
+-------------------------------------------------------------------------
+WARRANTY: This software is provided with no warranty whatsoever parts of
+it may not function correctly.
+
+DISCLAIMER: Timothy Paling can't be held responsible if this breaks your
+computer, software, or other data you may have.
+-------------------------------------------------------------------------
+HINTS ON RUNNING THE SOFTWARE:
+
+It needs a 3D graphics card of some description.
+It needs DirectX8 to be installed.
+It needs a resolution of 1152x864
+You may like to look in the source code and turn on Hardware T&L
+
+
+-------------------------------------------------------------------------
+
+
+This editor was initially built as an editor for a replacement version of the original Wolfenstein engine. It never got finished.
+
+It needs to be run at 1152x864 resolution or you won't see all the tools.
+
+On loading the editor I recommend you alter the speed settings to match your computer:
+
+1. Locate the section of buttons BELOW the "Object Type:" frame.
+2. Select the button which shows a Hand Pressing a button.
+3. Click on this and adjust the sliders.
+
+In order to test your settings press the following buttons::
+F and S keys rotate the view left and right
+E and D keys move the view forwards and backwards
+A and Z keys make the view look upwards and downwards
+
+Use the arrow keys to move the "Puck" (which is the big multi-coloured square)
+
+Use the Up and Down arrow buttons on the toolbar to move the view up and down in the Y axis.
+Press the House button to reset the view and puck.
+
+Press the Right Mouse button to change the angle of the Puck.
+
+TO BUILD SOME WALLS
+
+1. Make a folder on your harddrive and in it put some Bitmap (*.bmp) files. Try designing your own or download some extures. A good size is 64*64 pixels. You can you Windows Paintbrush to make these.
+2. Make a second folder on your harddrive and put some Light maps into it. These also need to be BMP files. A light map sets the brightness on your texture therefore a 64*64 grey bitmap will mean your textures will be duller whereas a white bitmap means they will be bright.
+
+(I've included some examples in the main project folder. [\textures][\lightmaps])
+
+Load up the modeller.
+
+Note on the toolbar on the left there are two large black squares. Click on the disc icon in the "Base Textures" Frame. Naviagte to the first folder you created. You will see previews of your bitmaps in the pane.  Use the left and right arrows to select a texture.
+
+Do the same for the "Lightmap" frame only this time choose the folder where you put your lightmaps. Use the left and right arrows to select a texture.
+
+Now on the top toolbar select the option "Render Solid". Then click on the Base Texture Preview Picture. Finally left click onto the 3D View to place the wall section. 
+
+Use the arrow keys to move the puck away from that wall section and enjoy.
+
+SOME IDEAS
+
+The coloured boxes at the bottom of left hand tool bar allow you to set lighting for each vertex, or the heights of each vertex. Try putting some numbers in.
+
+Select the Raining Cloud button to set fog.
+
+Choose different "Object Types" and see what happens (avoid the CUSTOM option)
+
+
+----------------------------------------------------------------------
+Remember to Visit www.live3d.btinternet.co.uk

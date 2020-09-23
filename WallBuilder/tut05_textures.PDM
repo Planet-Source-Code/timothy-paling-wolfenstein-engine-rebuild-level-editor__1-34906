@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=WolfensteinEd
+
+[Package|WolfensteinEd|Live://3D Wolfenstein Editor]
+Icon1=vb_Tut05_Textures.exe
+Title1=Live://3D Wolfenstein Editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|WolfensteinEd|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=T:\Developer\Wolfenstein1.5\WallBuilder\Package
+
+[Package|WolfensteinEd|Configure DAO ISAMs]
+Applicable=No
+
+[Package|WolfensteinEd|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|WolfensteinEd|Files Found]
+
+[Package|WolfensteinEd|Files Released]
+
+[Package|WolfensteinEd|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX8VB.DLL=
+
+[Package|WolfensteinEd|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|WolfensteinEd|Files Added]
+
+[Package|WolfensteinEd|Files Removed]
+
+[Package|WolfensteinEd|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX8VB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+T:\Developer\Wolfenstein1.5\WallBuilder\L3DWolfEd.exe=Yes
+
+[Package|WolfensteinEd|Configure Registry Files]
+Applicable=No
+
+[Package|WolfensteinEd|Configure Remote Servers]
+Applicable=No
+
+[Package|WolfensteinEd|Install Locations]
+T:\Developer\Wolfenstein1.5\WallBuilder\vb_Tut05_Textures.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX8VB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+T:\Developer\Wolfenstein1.5\WallBuilder\L3DWolfEd.exe=$(AppPath)
+
+[Package|WolfensteinEd|Configure Shared Files]
+Applicable=Yes
+T:\Developer\Wolfenstein1.5\WallBuilder\vb_Tut05_Textures.exe=No
+T:\Developer\Wolfenstein1.5\WallBuilder\L3DWolfEd.exe=No
+
+[Package|WolfensteinEd|Distribution]
+Type=single
+Size=
+Title=Live://3D Wolfenstein Editor
+
+[Package|WolfensteinEd|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|WolfensteinEd|$(Programs)]
+Icon1=L3DWolfEd.exe
+Title1=L3D Wolfenstein Editor
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|WolfensteinEd|Package]
+PackageFolder=T:\Developer\Wolfenstein1.5\WallBuilder\Package
+ProjectFolder=T:\Developer\Wolfenstein1.5\WallBuilder
+ServerSideCab=
+File1=T:\Developer\Wolfenstein1.5\WallBuilder\Package\setup.exe
+File2=T:\Developer\Wolfenstein1.5\WallBuilder\Package\Setup.Lst
+File3=T:\Developer\Wolfenstein1.5\WallBuilder\Package\L3DWolfEd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
